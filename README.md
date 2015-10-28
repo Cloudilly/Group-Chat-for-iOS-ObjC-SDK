@@ -11,4 +11,4 @@ If you have not already done so, first create an account on [Cloudilly](https://
 ![iOS Console](https://github.com/cloudilly/images/blob/master/ios_console.png)
 
 #####Update Access
-Insert your _"App Name"_ and _"Access"_ into [custom.js](../blob/master/anonymous/ViewController.m#L21-L22) where appropriate. Custom.js is the frontend Javascript that calls Cloudilly. Once done, upload all files to the ExpressJS server. Finally, navigate to the authorized URL on your browser to verify connection to Cloudilly. If you have setup the anonymous chat app for other platforms, you should also test if you can send messages across platforms, ie from Web to iOS / Android and vice versa.
+[Insert your _"App Name"_ and _"Access"_](./../blob/master/anonymous/ViewController.m#L21-L22) where appropriate. Custom.js is the frontend Javascript that calls Cloudilly. Once done, upload all files to the ExpressJS server. Finally, navigate to the authorized URL on your browser to verify connection to Cloudilly. If you have setup the anonymous chat app for other platforms, you should also test if you can send messages across platforms, ie from Web to iOS / Android and vice versa.
