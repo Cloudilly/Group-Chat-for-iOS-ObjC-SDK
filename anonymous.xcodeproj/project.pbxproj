@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405038461BE0BB4300A7B020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405038451BE0BB4300A7B020 /* main.m */; };
+		405038491BE0BB4300A7B020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405038481BE0BB4300A7B020 /* AppDelegate.m */; };
+		4050384C1BE0BB4300A7B020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4050384B1BE0BB4300A7B020 /* ViewController.m */; };
+		405038511BE0BB4300A7B020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405038501BE0BB4300A7B020 /* Assets.xcassets */; };
+		409A57A01BE0BE9C00F61983 /* Cloudilly.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A579B1BE0BE9C00F61983 /* Cloudilly.m */; };
+		409A57A11BE0BE9C00F61983 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A579D1BE0BE9C00F61983 /* GCDAsyncSocket.m */; };
+		409A57A21BE0BE9C00F61983 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A579F1BE0BE9C00F61983 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		405038411BE0BB4300A7B020 /* anonymous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anonymous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405038451BE0BB4300A7B020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405038471BE0BB4300A7B020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		405038481BE0BB4300A7B020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4050384A1BE0BB4300A7B020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4050384B1BE0BB4300A7B020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		405038501BE0BB4300A7B020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405038551BE0BB4300A7B020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409A579A1BE0BE9C00F61983 /* Cloudilly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cloudilly.h; path = Cloudilly/Cloudilly.h; sourceTree = "<group>"; };
+		409A579B1BE0BE9C00F61983 /* Cloudilly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cloudilly.m; path = Cloudilly/Cloudilly.m; sourceTree = "<group>"; };
+		409A579C1BE0BE9C00F61983 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Cloudilly/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		409A579D1BE0BE9C00F61983 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Cloudilly/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		409A579E1BE0BE9C00F61983 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Cloudilly/Reachability.h; sourceTree = "<group>"; };
+		409A579F1BE0BE9C00F61983 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Cloudilly/Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4050383E1BE0BB4300A7B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405038381BE0BB4300A7B020 = {
+			isa = PBXGroup;
+			children = (
+				405038431BE0BB4300A7B020 /* anonymous */,
+				405038421BE0BB4300A7B020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405038421BE0BB4300A7B020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405038411BE0BB4300A7B020 /* anonymous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405038431BE0BB4300A7B020 /* anonymous */ = {
+			isa = PBXGroup;
+			children = (
+				405038471BE0BB4300A7B020 /* AppDelegate.h */,
+				405038481BE0BB4300A7B020 /* AppDelegate.m */,
+				4050384A1BE0BB4300A7B020 /* ViewController.h */,
+				4050384B1BE0BB4300A7B020 /* ViewController.m */,
+				405038501BE0BB4300A7B020 /* Assets.xcassets */,
+				405038551BE0BB4300A7B020 /* Info.plist */,
+				409A57991BE0BE8900F61983 /* Cloudilly */,
+				405038441BE0BB4300A7B020 /* Supporting Files */,
+			);
+			path = anonymous;
+			sourceTree = "<group>";
+		};
+		405038441BE0BB4300A7B020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405038451BE0BB4300A7B020 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409A57991BE0BE8900F61983 /* Cloudilly */ = {
+			isa = PBXGroup;
+			children = (
+				409A579A1BE0BE9C00F61983 /* Cloudilly.h */,
+				409A579B1BE0BE9C00F61983 /* Cloudilly.m */,
+				409A579C1BE0BE9C00F61983 /* GCDAsyncSocket.h */,
+				409A579D1BE0BE9C00F61983 /* GCDAsyncSocket.m */,
+				409A579E1BE0BE9C00F61983 /* Reachability.h */,
+				409A579F1BE0BE9C00F61983 /* Reachability.m */,
+			);
+			name = Cloudilly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405038401BE0BB4300A7B020 /* anonymous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405038581BE0BB4300A7B020 /* Build configuration list for PBXNativeTarget "anonymous" */;
+			buildPhases = (
+				4050383D1BE0BB4300A7B020 /* Sources */,
+				4050383E1BE0BB4300A7B020 /* Frameworks */,
+				4050383F1BE0BB4300A7B020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anonymous;
+			productName = anonymous;
+			productReference = 405038411BE0BB4300A7B020 /* anonymous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405038391BE0BB4300A7B020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cloudilly Private Limited";
+				TargetAttributes = {
+					405038401BE0BB4300A7B020 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4050383C1BE0BB4300A7B020 /* Build configuration list for PBXProject "anonymous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405038381BE0BB4300A7B020;
+			productRefGroup = 405038421BE0BB4300A7B020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405038401BE0BB4300A7B020 /* anonymous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4050383F1BE0BB4300A7B020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405038511BE0BB4300A7B020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4050383D1BE0BB4300A7B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4050384C1BE0BB4300A7B020 /* ViewController.m in Sources */,
+				409A57A11BE0BE9C00F61983 /* GCDAsyncSocket.m in Sources */,
+				405038491BE0BB4300A7B020 /* AppDelegate.m in Sources */,
+				405038461BE0BB4300A7B020 /* main.m in Sources */,
+				409A57A21BE0BE9C00F61983 /* Reachability.m in Sources */,
+				409A57A01BE0BE9C00F61983 /* Cloudilly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		405038561BE0BB4300A7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		405038571BE0BB4300A7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405038591BE0BB4300A7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anonymous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudilly.anonymous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4050385A1BE0BB4300A7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anonymous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudilly.anonymous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4050383C1BE0BB4300A7B020 /* Build configuration list for PBXProject "anonymous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405038561BE0BB4300A7B020 /* Debug */,
+				405038571BE0BB4300A7B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405038581BE0BB4300A7B020 /* Build configuration list for PBXNativeTarget "anonymous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405038591BE0BB4300A7B020 /* Debug */,
+				4050385A1BE0BB4300A7B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405038391BE0BB4300A7B020 /* Project object */;
+}
