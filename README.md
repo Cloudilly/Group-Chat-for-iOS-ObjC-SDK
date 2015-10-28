@@ -8,7 +8,7 @@ Repository contains sample codes required to build an anonymous group chat appli
 #####Create app > Secret
 If you have not already done so, first create an account on [Cloudilly](https://cloudilly.com). Next create an app with a unique app identifier and a cool name. Once done, you should arrive at the app page with all the access keys for the different platforms. Under Web SDK, you will find the parameters required for your web application. _"Secret"_ refers to the secret key shared between the developer and Cloudilly. It will be used by the server side token generator to sign the JSON Web Tokens. _"Access"_ refers to the access keys to be embedded in the client side codes. _"Domains"_ refer the URLs of your web application authorized to make use of the access key. Note that _'example.com'_ and _'www.example.com'_ are considered 2 separate URLs.
 
-![Web Console](https://github.com/cloudilly/images/blob/master/web_console.png)
+![iOS Console](https://github.com/cloudilly/images/blob/master/ios_console.png)
 
 #####Instantiate ExpressJS server
 We will be using ExpressJS as our application server. Deploy the below dependencies.
