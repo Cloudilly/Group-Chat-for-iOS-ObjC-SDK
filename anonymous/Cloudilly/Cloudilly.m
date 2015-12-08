@@ -25,6 +25,7 @@
     NSString *origin;
     NSTimer *ping;
     NSTimer *pong;
+    NSHashTable *delegates;
     NSMutableDictionary *tasks;
     NSMutableDictionary *callbacks;
 }
@@ -43,6 +44,7 @@
         saas= @"ios";
         version= [[NSNumber alloc] initWithInt:1];
         origin= [[NSBundle mainBundle] bundleIdentifier];
+        delegates= [NSHashTable weakObjectsHashTable];
         tasks= [[NSMutableDictionary alloc] init];
         callbacks= [[NSMutableDictionary alloc] init];
         [callbacks setObject:[callback copy] forKey:@"initialized"];
@@ -55,6 +57,10 @@
         [reach startNotifier];
     }
     return self;
+}
+
+-(void)addDelegate:(id<CloudillyDelegate>)delegate {
+    [delegates addObject:delegate];
 }
 
 -(void)connectToCloudilly {
@@ -343,7 +349,7 @@
 -(void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)err {
     attempts++;
     [self stopPING];
-    [self.delegate socketDisconnected];
+    for(id delegate in delegates) { [delegate socketDisconnected]; }
     if(!reattempt || attempts>= 8) { return; }
     [self connectToCloudilly];
 }
@@ -366,12 +372,12 @@
     NSDictionary *dict= [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingMutableContainers error:nil];
     NSString *type= [dict objectForKey:@"type"];
     if(!type) { return; }
-    if([type isEqualToString:@"device"]) { [self.delegate socketReceivedDevice:dict]; return; }
-    if([type isEqualToString:@"post"]) { [self.delegate socketReceivedPost:dict]; return; }
+    if([type isEqualToString:@"device"]) { for(id delegate in delegates) { [delegate socketReceivedDevice:dict]; }; return; }
+    if([type isEqualToString:@"post"]) { for(id delegate in delegates) { [delegate socketReceivedPost:dict]; }; return; }
     if([type isEqualToString:@"connect"]) {
         NSString *status= [dict objectForKey:@"status"];
         if([status isEqual: @"success"]) { [self startPING]; }
-        [self.delegate socketConnected:dict];
+        for(id delegate in delegates) { [delegate socketConnected:dict]; }
         return;
     }
     

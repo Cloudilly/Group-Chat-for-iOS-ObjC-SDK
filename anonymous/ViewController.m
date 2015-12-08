@@ -24,7 +24,7 @@
             [self addMsg:@"CONNECTING..."];
             [self.cloudilly connect];
         }];
-        self.cloudilly.delegate= self;
+        [self.cloudilly addDelegate:self];
     }
     return self;
 }

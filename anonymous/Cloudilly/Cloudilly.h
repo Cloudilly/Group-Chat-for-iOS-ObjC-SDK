@@ -22,9 +22,8 @@
 
 @interface Cloudilly: NSObject
 
-@property (nonatomic, weak) id delegate;
-
 -(id)initWithApp:(NSString *)app AndAccess:(NSString *)access WithCallback:(void(^)(void))callback;
+-(void)addDelegate:(id<CloudillyDelegate>)delegate;
 -(void)connect;
 -(void)connectWithUsername:(NSString *)username Password:(NSString *)password;
 -(void)disconnect;
