@@ -1,5 +1,5 @@
-#Anonymous Group Chat for iOS ObjC SDK
-Repository contains sample codes to build an anonymous group chat application using Cloudilly iOS ObjC SDK.
+#Group Chat for iOS ObjC SDK
+Repository contains sample codes to build a group chat application using Cloudilly iOS ObjC SDK.
 
 ![Anonymous](https://github.com/Cloudilly/Images/blob/master/ios_anonymous.png)
 
